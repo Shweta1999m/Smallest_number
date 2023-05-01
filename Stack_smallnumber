@@ -1,0 +1,24 @@
+# Q10. Write a program to find the smallest number using a stack.
+
+First = []
+num = int(input('How many numbers: '))
+
+for n in range(num):
+    numbers = int(input('Enter number: '))
+    First.append(numbers)
+    
+print("Smallest number in the list is :  ", min(First))
+
+output:
+How many numbers: 10
+Enter number: 1
+Enter number: 2
+Enter number: 46
+Enter number: 23
+Enter number: 8
+Enter number: 123
+Enter number: 565
+Enter number: 43
+Enter number: 546
+Enter number: 127
+Smallest number in the list is :   1
